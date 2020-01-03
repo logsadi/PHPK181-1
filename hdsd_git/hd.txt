@@ -1,0 +1,12 @@
+git init
+git add *
+git commit -m "first commit"
+git remote add origin https://github.com/born2love/demo.git
+git push -u origin master
+
+Nếu nhìn thấy dòng dưới thì nhập:
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+Có thể lỗi , sau đó xóa folder git đi và thực hiện lại các bước là được.
